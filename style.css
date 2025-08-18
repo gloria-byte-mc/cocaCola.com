@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+  box-sizing: border-box;
+}
+.navbar{
+ 
+  display: flex;
+  width:100%;
+  background:#fff;
+  height: 80px;
+  padding: 30px;
+  gap: 50px;
+  align-items: center;
+ 
+}
+.navbar img{
+margin-left: 295px;
+}
+.navbar button{
+  display: none;
+}
+  #humburger{
+    display: none;
+    font-size: 25px;
+  }
+.navbar a{
+  position: relative;
+  color: black;
+  text-decoration: none;
+ font-weight: 700;
+ font-size:14px;
+}
+.navbar i{
+  font-size: smaller;
+  margin-left: 20px;
+  transition: transform 0.3s ease;
+}
+.navbar a:hover i{
+  transform: rotate(90deg);
+}
+#user{
+  position: relative;
+  margin-left: 700px;
+  font-size: 25px;
+}
+.navbar a::after{
+ content: '';
+  position: absolute;
+  bottom: -30px;
+  margin-top: 20px;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color:black; 
+ 
+}
+.navbar a:hover::after{
+  width: 100%;
+}
+#user::after{
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  margin-top: 20px;
+  left: -4px;
+  height: 4px;
+  width: 0;
+  background-color:black; 
+}
+#user:hover::after{
+  width: 160%;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #fff;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px 0;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.dropdown-content a:hover {
+ 
+  font-weight: bold;
+ transition: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block ;
+ 
+}
+.dropdown:hover > a::after{
+  width: 100%;
+}
+.dropdown::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  height: 45px; /* Extends the hover area to reach the dropdown */
+  z-index: 2;
+}
+/* Remove line animation from dropdown content links */
+.dropdown-content a::after{
+  display: none !important;
+}
+.dropdown-content a:hover::after{
+  display: none !important;
+}
+
+.dropdown2{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content2{
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 300px;
+  background-color: #fff;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px 0;
+}
+
+.dropdown-content i {
+  color: black;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  font-weight: 100;
+}
+.dropdown2:hover .dropdown-content2 {
+  display: block ;
+ 
+}
+.dropdown2:hover > #user::after{
+  width: 160%;
+}
+.dropdown2::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  height: 45px; /* Extends the hover area to reach the dropdown */
+  z-index: 2;
+}
+/* Remove line animation from dropdown content links */
+.dropdown-content2 #user::after{
+  display: none !important;
+}
+.dropdown-content2 #user:hover::after{
+  display: none !important;
+}
+.dropdown-content2 button:hover{
+  background-color: rgb(228, 228, 228) !important;
+}
+.dropdown-content2 #btn1:hover{
+  background-color: rgb(94, 93, 93) !important;
+}

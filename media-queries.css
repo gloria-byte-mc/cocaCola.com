@@ -1,0 +1,83 @@
+@media screen and (max-width:1407px) {
+  .navbar img{
+    margin-left: 50px;
+  }
+}
+hr{
+ margin-left: 140px;
+}
+#copyright{
+  margin-left: 1055px;
+}
+
+
+@media screen and (max-width:768px) {
+
+  .navbar{
+    height: 100px;
+  }
+  .navbar a{
+    display: none;
+  }
+  .navbar i{
+    display: none;
+  }
+  .navbar img{
+    width: 150px;
+    margin-left: 30px;
+  }
+  .navbar button{
+    display: block;
+    width: 120px ;
+    height: 30px;
+    margin-left: 350px;
+    margin-right: -40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  #humburger{
+    display: block;
+    font-size: 25px;
+   
+
+  }
+  .slider{
+  width: 650px;
+  height:800px ;
+  }
+hr{
+
+  margin-left: 10px;
+}
+.words h3{
+  font-size: 30px;
+}
+#popular{
+  margin-top: 30px;
+}
+.section2{
+  grid-template-columns: auto;
+}
+.grid2{
+ width: 650px;
+ height:250px;
+ margin-top: -600px;
+}
+.grid2 h3{
+  font-size: 30px;
+  padding-left: 40px;
+  margin-top: 40px;
+}
+.grid2 p{
+  font-size: 16px;
+  padding-left:40px ;
+  padding-top:10px;
+}
+.grid1{
+
+
+}
+
+}
