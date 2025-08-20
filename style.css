@@ -18,6 +18,9 @@
 .navbar img{
 margin-left: 295px;
 }
+#btn1{
+  display: block;
+}
 .navbar button{
   display: none;
 }
