@@ -1,10 +1,20 @@
+@media screen and (max-width:1440px) {
+  .navbar img{
+margin-left: 20px;
+  }
+  hr{
+    margin-left: 170px !important;
+  }
+}
+
+
 @media screen and (width:1407px) {
   .navbar img{
-    margin-left: 50px;
+    margin-left: 50px ;
   }
 }
 hr{
- margin-left: 140px !important;
+ margin-left: 140px ;
 }
 #copyright{
   margin-left: 1055px;
