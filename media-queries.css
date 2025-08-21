@@ -10,7 +10,7 @@ margin-left: 20px;
 
 @media screen and (width:1407px) {
   .navbar img{
-    margin-left: 50px ;
+    margin-left: 0px ;
   }
 }
 hr{

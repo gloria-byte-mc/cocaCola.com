@@ -1,0 +1,416 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+.nav{
+  height: 80px;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+
+}
+.hero{
+  background-color: #eeeeee;
+  height: 850px;
+}
+.form{
+
+ margin: auto;
+width: 550px;
+  height: 850px;
+}
+#heading3{
+  font-size: 35px;
+  padding-top: 20px;
+}
+#heading4{
+  margin-top: 25px;
+  font-size: 22px;
+  
+}
+#heading5{
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.hero button{
+  margin-top: 40px;
+  width: 270px;
+}
+#phone{
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid black;
+  font-weight: 700;
+  font-size: 15px;
+}
+#email{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 2px;
+  margin-left: -4px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+#paragraph{
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 15px;
+}
+#select{
+  width:540px ;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font: optional;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 15px;
+  
+}
+
+#input{
+  margin-top: 10px;
+  width: 540px;
+  height: 60px;
+  border-radius: 10px;
+  padding-left:15px ;
+  font-size:16px ;
+}
+#paragraph1{
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center; /* vertically align */
+  margin-top: 25px;
+}
+
+.checkbox-container input {
+  margin-right: 10px; /* space between box and text */
+  width: 17px;
+  height: 17px;
+}
+
+.checkbox-container label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333; /* you can style this text as you like */
+}
+#label-button{
+  width: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+#Continue{
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 150px;
+  border: none;
+  background-color: #d4d4d4;
+  color:#808080 ;
+  font-weight: 600;
+  font-size: 0.875rem;
+  width: 290px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.divider hr {
+  flex: 1;               /* let lines take full width */
+  border: none;
+  border-top: 1px solid black;
+}
+
+.divider span {
+  margin: 0 15px;        /* space around the text */
+  font-size: 16px;
+  font-weight: 500;
+  color:black;
+}
+#google{
+   display: flex;              /* flex layout */
+  align-items: center;        /* vertically center image + text */
+  justify-content: center;    /* center both together in button */
+  background-color: #fff;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 150px;
+  width: 290px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 0px;
+ 
+  
+}
+#google img{
+align-items: center;
+height: 18px;
+margin-right: 5px;
+
+}
+
+#twitter{
+   display: flex;              /* flex layout */
+  align-items: center;        /* vertically center image + text */
+  justify-content: center;    /* center both together in button */
+    background-color: #fff;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 150px;
+  width: 290px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 12px;
+}
+#twitter img{
+margin-right: 5px;
+height: 25px;
+}
+
+#hr1{
+  margin-top: 35px;
+  border-top: 1px solid black;
+}
+#paragraph2{
+ text-align: center;
+ margin-left: 40px;
+ margin-top: 25px;
+}
+#paragraph2 a{
+  color: black;
+  font-weight: 600;
+}
+
+footer{
+  background-color: black;
+  height: 182px;
+  color: white;
+}
+#footer-heading{
+  padding-top: 50px;
+  text-align: center;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size:18px ;
+}
+#footer-p{
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 0.875rem;
+}
+
+@media screen and (max-width:1024px) {
+  .hero{
+    height: 1200px;
+  }
+  footer{
+    margin-top:300px ;
+  }
+}
+@media screen and (max-width:912px) {
+.hero{
+  
+  height: 1200px;
+}
+footer{
+  margin-top: 300px;
+}
+}
+
+@media screen and (max-width:853px){
+  footer{
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width:820px) {
+  footer{
+margin-top: 100px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  footer{
+    margin-top:15px ;
+  }
+}
+
+@media  screen and (max-width:540px) {
+  #heading3{
+    margin-left: 10px;
+  }
+  #heading4{
+    margin-left: 10px;
+  }
+  #heading5{
+    margin-left: 10px;
+  }
+  .hero button{
+    width: 250px;
+  }
+  #phone{
+    margin-left: 10px;
+  }
+  #paragraph{
+    margin-left: 10px;
+  }
+  #select{
+    margin-left: 10px;
+    width:500px ;
+  }
+  #input{
+    margin-left: 10px;
+    width: 500px;
+  }
+  #paragraph1{
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .checkbox-container{
+    margin-left: 10px;
+  }
+  #Continue{
+    width: 500px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .divider hr{
+   flex: unset;
+   width: 40%;
+   margin-left: 10px;
+  }
+  #google{
+    width: 500px;
+    margin-left: 10px;
+  }
+  #twitter{
+     width: 500px;
+    margin-left: 10px;
+  }
+  #hr1{
+    width: 500px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .form{
+  
+    width: 400px;
+  }
+ 
+  .hero button{
+    width: 190px;
+  }
+  #select{
+    width: 380px;
+  }
+  #input{
+    width: 380px;
+  }
+  #Continue{
+    width: 380px;
+  }
+  .divider hr{
+    width: 40%;
+  }
+  #google{
+    width: 380px;
+  }
+  #twitter{
+    width: 380px;
+  }
+  #hr1{
+    width: 380px;
+  }
+  #paragraph2{
+    margin-left: 0px;
+  }
+  #footer-heading{
+    margin-left: 0px;
+  }
+  #footer-p{
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width:390px) {
+  .form{
+
+    width: 380px;
+  }
+  .hero button{
+    width: 180px;
+  }
+  #select{
+    width: 360px;
+  }
+  #input{
+    width: 360px;
+  }
+  #Continue{
+    width: 360px;
+  }
+  .divider hr{
+ width: 39%;
+  }
+  #google{
+    width: 360px;
+  }
+  #twitter{
+    width: 360px;
+  }
+  #hr1{
+    width: 360px;
+  }
+  footer{
+    margin-top:0px ;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .form{
+    
+    width: 350px;
+  }
+  .hero button{
+    width: 165px;
+  }
+  #select{
+    width: 330px;
+  }
+  #input{
+    width: 330px;
+  }
+  #Continue{
+    width: 330px;
+  }
+  #google{
+    width: 330px;
+  }
+  #twitter{
+    width: 330px;
+  }
+  #hr1{
+    width: 330px;
+  }
+}

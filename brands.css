@@ -4,7 +4,6 @@
   font-family: Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
   box-sizing: border-box;
 }
-
 .navbar{
  
   display: flex;
@@ -60,20 +59,10 @@ margin-left: 295px;
   background-color:black; 
  
 }
+
 .navbar a:hover::after{
   width: 100%;
 }
-
-.navbar .logo-link::after {
-  display: none;
-}
-
-.dropdown-content2 a::after{
-  display: none;
-  content: none;
-}
-
-
 #user::after{
   content: '';
   position: absolute;
@@ -83,6 +72,15 @@ margin-left: 295px;
   height: 4px;
   width: 0;
   background-color:black; 
+}
+
+.navbar .logo-link::after {
+  display: none;
+}
+
+.dropdown-content2 a::after{
+  display: none;
+  content: none;
 }
 #user:hover::after{
   width: 160%;
@@ -195,4 +193,161 @@ margin-left: 295px;
 }
 .dropdown-content2 #btn1:hover{
   background-color: rgb(94, 93, 93) !important;
+}
+
+
+@media screen and (max-width:1407px) {
+  .navbar img{
+    margin-left: 50px;
+  }
+hr{
+ margin-left: 140px !important;
+  }
+  #copyright{
+    margin-left: 1055px !important;
+  }
+  
+}
+@media screen and (max-width:1024px) {
+   .navbar{
+    height: 100px;
+  }
+  .navbar a{
+    display: none;
+  }
+
+  .navbar i{
+    display: none;
+  }
+  .navbar img{
+    width: 150px;
+    margin-left: 0px ;
+   
+  }
+  .navbar button{
+    flex: 0 0 auto;
+    display: block;
+    width: 80px !important;
+    height: 40px;
+    margin-left: 740px;
+    margin-right: -40px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  #humburger{
+    display: block;
+    font-size: 25px;
+  }
+  .brands-section{
+    height: 2090px !important;
+  }
+  .brands-section2{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 10px !important;
+  }
+  .brands1{
+width: 450px !important;
+height: 450px !important;
+margin-left: 70px;
+  }
+  .brands2{
+height: 450px !important; 
+width: 450px !important;
+  }
+  .brands2 img{
+    width: 400px !important;
+    margin-top: 110px !important;
+  }
+  .brands3{
+height: 450px !important;
+width: 450px !important;
+margin-left: 70px;
+  }
+  .brands4 img{
+    height:400px !important ;
+  }
+  .brands4{
+height: 450px !important; 
+width: 450px !important;
+  }
+    .brands5{
+height: 450px !important;
+width: 450px !important;
+margin-left: 70px;
+  }
+  .brands6{
+height: 450px !important; 
+width: 450px !important;
+  }
+  .brands6 img{
+    height: 400px !important;
+  }
+    .brands7{
+height: 450px !important; 
+width: 450px !important;
+margin-left: -200px;
+  }
+  .brands7 img{
+    height: 400px;
+  }
+  .footer{
+  height: 650px !important;
+}
+.section4{
+  column-gap: 220px !important;
+}
+.sec1{
+  margin-left: 120px !important;
+  margin-top: 20px !important;
+}
+.sec2{
+ margin-top: 20px !important;
+ margin-left: 180px !important;
+}
+.section5{
+  grid-template-columns: repeat(2, 2fr) !important;
+}
+.section5 .sec5{
+margin-top: -160px !important;
+margin-left: 80px !important;
+}
+
+.section5 .sec3{
+  margin-left: 80px !important;
+}
+
+.section5 .sec6{
+  display: none !important;
+}
+hr{
+  margin-left: 80px !important;
+  width: 800px !important;
+}
+.footer-btn{
+  display: block !important ;
+  
+}
+
+.footer-btn button{
+  
+  border-radius: 70% !important;
+  background-color: transparent !important;
+  border: 2px solid white !important;
+  margin-top: 30px !important;
+  padding: 10px !important;
+  color: white !important;
+  width: 35px !important ;
+  height: 35px !important;
+  
+}
+#linked{
+  margin-left: 80px !important;
+}
+#copyright{
+  margin-left: 80px !important;
+}
 }
