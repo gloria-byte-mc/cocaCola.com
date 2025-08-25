@@ -12,7 +12,7 @@
 .x-mark{
   font-size: 20px;
   margin-top: 30px;
-  margin-right: 60px;
+  margin-right: 218px;
 }  
 .list-container{
   display: grid;
@@ -98,8 +98,17 @@ margin-top: 35px;
 
 }
 
+@media screen and (max-width:912px) {
+  .x-mark{
+    margin-right: 105px;
+  }
+}
+
 
 @media screen and (max-width:853px) {
+  .x-mark{
+    margin-right: 145px;
+  }
   .list2 i{
     margin-left: 400px;
   }
@@ -122,6 +131,9 @@ margin-top: 35px;
 }
 
 @media screen and (max-width:820px) {
+  .x-mark{
+    margin-right: 165px;
+  }
   .list2 i{
     margin-left: 350px;
   }
@@ -133,9 +145,15 @@ margin-top: 35px;
   }
 }
 
+@media screen and (max-width:768px) {
+  .x-mark{
+    margin-right: 113px;
+  }
+}
+
 @media screen and (max-width:540px) {
   .x-mark{
-    margin-right: -100px;
+    margin-right: -8px;
     font-size: 30px;
   }
   .list1,.list2, .list3{
@@ -193,8 +211,11 @@ margin-top: 35px;
   .list-container{
     row-gap: 15px;
   }
+  .x-container{
+    flex-direction: row;
+  }
   .x-mark{
-    margin-right: -200px;
+    margin-left: 628px;
   }
     .list1 h3, .list2 h3, .list3 h3{
       font-size: 40px;
@@ -231,9 +252,7 @@ font-size: 25px;
 }
 
 @media screen and (max-width:414px) {
-  .x-mark{
-    margin-right: -230px;
-  }
+  
   .list1 h3, .list2 h3, .list3 h3{
     font-size: 45px;
   }
@@ -272,13 +291,9 @@ margin-top: 50px;
 }
 
 @media screen and (max-width:390px) {
-  .x-mark{
-    margin-right: -255px;
-  }
+ 
 }
 
 @media screen and (max-width:375px) {
-  .x-mark{
-    margin-right: -270px;
-  }
+ 
 }

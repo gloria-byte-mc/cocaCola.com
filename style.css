@@ -41,6 +41,9 @@ margin-left: 295px;
   margin-left: 20px;
   transition: transform 0.3s ease;
 }
+#a-hu{
+  display: none;
+}
 .navbar a:hover i{
   transform: rotate(90deg);
 }
