@@ -30,13 +30,21 @@
     font-size: 25px;
     }
 
+    #humburger:hover{
+  transition: none;
+  transform: none;
+    }
+
 #a-hu{
   display: block;
+
 }
+
 .navbar a:hover::after,
 #a-hu:hover::after {
   content: none !important;
   display: none !important;
+  
 }
 
 
@@ -238,9 +246,21 @@ hr{
     display: block;
     font-size: 25px;
    }
+     #humburger{
+      transition: none;
+      transform: none;
+     }
+   
     #a-hu{
     display: block;
+    
    }
+  
+   .navbar a:hover::after,
+#a-hu:hover::after {
+  content: none !important;
+  display: none !important;
+}
   
   .slider{
   width: 650px;
