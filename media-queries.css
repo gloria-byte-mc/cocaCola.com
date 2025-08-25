@@ -50,12 +50,12 @@ hr{
     background-color: black;
     color: white;
   }
+
   #humburger{
     display: block;
     font-size: 25px;
-   
-
-  }
+   }
+  
   .slider{
   width: 650px;
   height:800px ;

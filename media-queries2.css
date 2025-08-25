@@ -28,9 +28,18 @@
   #humburger{
     display: block;
     font-size: 25px;
-   
+    }
 
-  }
+#a-hu{
+  display: block;
+}
+.navbar a:hover::after,
+#a-hu:hover::after {
+  content: none !important;
+  display: none !important;
+}
+
+
   .slider{
   width: 650px;
   height:800px ;
@@ -228,9 +237,11 @@ hr{
   #humburger{
     display: block;
     font-size: 25px;
-   
-
-  }
+   }
+    #a-hu{
+    display: block;
+   }
+  
   .slider{
   width: 650px;
   height:800px ;
